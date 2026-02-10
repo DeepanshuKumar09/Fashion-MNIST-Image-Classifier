@@ -8,7 +8,7 @@
 
 **A deep learning-powered tool for classifying fashion items from the Fashion MNIST dataset.**
 
-[View Demo]([https://your-streamlit-app-link.streamlit.app/](https://fashion-mnist-image-classifier-09.streamlit.app/)) 
+[View Demo]((https://fashion-mnist-image-classifier-09.streamlit.app/)])
 
 </div>
 
