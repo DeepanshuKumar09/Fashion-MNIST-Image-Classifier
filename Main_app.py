@@ -25,14 +25,14 @@ st.markdown(
 
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model('C:/Projects/MNIST Clothing_Classifier/fashion_mnist_model.keras')
+    model = tf.keras.models.load_model('fashion_mnist_model.keras')
     return model
 model = load_model()
 
 # Load the class names
 @st.cache_data
 def load_class_names():
-    with open('C:/Projects/MNIST Clothing_Classifier/class_names.pkl', 'rb') as f:
+    with open('class_names.pkl', 'rb') as f:
         class_names = pickle.load(f)
     return class_names
 
@@ -65,3 +65,4 @@ if uploaded_file is not None:
     # Display the prediction
     st.success(f"Prediction: {predicted_class_name}")
     st.write(f"Confidence: {confidence:.2f}%")
+
